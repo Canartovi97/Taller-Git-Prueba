@@ -1,0 +1,113 @@
+/* ================================
+   ESTILOS GENERALES
+================================ */
+
+body {
+    background-color: #f4f6f9;
+}
+
+
+/* ================================
+   CONTENEDOR PRINCIPAL
+================================ */
+
+.main-container {
+    min-height: 100vh;
+}
+
+
+/* ================================
+   PANELES
+================================ */
+
+.panel {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+    padding: 25px;
+
+    height: 100%;
+}
+
+
+/* ================================
+   TÍTULOS
+================================ */
+
+.titulo {
+    font-weight: 700;
+    color: #1f2937;
+}
+
+
+/* ================================
+   BOTÓN PRINCIPAL
+================================ */
+
+.btn-primary {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+
+/* ================================
+   MAPA
+================================ */
+
+#mapa {
+    width: 100%;
+    height: 650px;
+}
+
+
+/* ================================
+   FORMULARIO
+================================ */
+
+.form-label {
+    font-weight: 500;
+    color: #374151;
+}
+
+.form-select,
+.form-control {
+    border-radius: 8px;
+}
+
+.form-select:focus,
+.form-control:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.15);
+}
+
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 991px) {
+
+    #mapa {
+        height: 500px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .panel {
+        padding: 18px;
+    }
+
+    #mapa {
+        height: 400px;
+    }
+
+}
